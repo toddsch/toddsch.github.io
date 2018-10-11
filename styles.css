@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'aileron-regular';
+	src: url('fonts/Aileron-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'aileron-light';
+	src: url('fonts/Aileron-Light.ttf');
+}
+
+* {
+	font-family: 'aileron-light', 'Calibri';
+	color: #212121;
+}
+
+h1 {
+	font-family: 'aileron-regular';
+}
+
+h3 {
+	font-family: 'aileron-light';
+}
+
+body {
+	/* Clear unwanted default padding */
+	margin: 0px;
+	background-color: #3AA9FF;
+}
+
+header {
+	position: relative;
+	height: 757px;
+
+	background-image: url('headerbg.png');
+	background-position: center;
+}
+
+#headerText {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%, -50%);
+	text-align: center;
+}
+
+article {
+	padding-top: 2em;
+}
+
+section {
+	max-width: 50em;
+
+	margin-bottom: 2em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.card {
+	padding: 1em;
+	border-radius: 2em;
+	background-color: white;
+}
+
+#libadge {
+	margin-left: auto;
+	margin-right: auto;
+}
